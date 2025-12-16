@@ -4,8 +4,8 @@ import csv
 import datetime
 
 # --- 設定 ---
-COM_PORT = 'COM6'   # Arduinoのポートに合わせてください
-BAUD_RATE = 115200
+COM_PORT = 'COM18'   # Arduinoのポートに合わせてください
+BAUD_RATE = 460800
 OUTPUT_FILE = 'vesc_log.csv'
 
 def main():
